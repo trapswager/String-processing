@@ -1,11 +1,11 @@
  Testing Report for the StringProcessor Class
 
-Overview 
-In this report, I summarize the testing process for the StringProcessor class, which includes methods for checking password strength, counting digits, counting words, and evaluating mathematical expressions.
+Overview  
+In this report, I summarize my testing process for the StringProcessor class, which includes methods for checking password strength, counting digits, counting words, and evaluating mathematical expressions.
 
 Test Cases
 
-Password Strength Check
+Password Strength Check  
 - Test Case 1:  
   - Input: "Strong1@"  
   - Expected Result: true  
@@ -31,14 +31,14 @@ Counting Digits
   - Actual Result: 0  
   - Outcome: Passed  
 
-Counting Words 
+Counting Words  
 - Test Case:  
   - Input: "This is a sample input."  
   - Expected Result: 5  
   - Actual Result: 5  
   - Outcome: Passed  
 
-Evaluating Mathematical Expressions 
+Evaluating Mathematical Expressions  
 - Test Case 1:  
   - Input: "2 + 3"  
   - Expected Result: 5.0  
@@ -52,7 +52,7 @@ Evaluating Mathematical Expressions
   - Outcome: Passed  
 
 Issues Encountered  
-During the testing process, I encountered an issue with evaluating expressions using the JavaScript engine. Some expressions threw exceptions due to incorrect formatting. I addressed these issues by ensuring that the input expressions were valid and well-formed before evaluation.
+During my testing process, I encountered an issue with evaluating expressions using the JavaScript engine. Some expressions threw exceptions due to incorrect formatting. I addressed these issues by ensuring that the input expressions were valid and well-formed before evaluation.
 
-Conclusion 
+Conclusion  
 I successfully tested the StringProcessor class, and all test cases passed without any significant issues. I learned how to create unit tests using JUnit and improved my understanding of handling exceptions in code.
